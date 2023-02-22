@@ -1,1 +1,11 @@
 Coursework- Part 1: Security of an OS- File System Security
+An operating system may implement many security features to protect the confidentiality, integrity, and availability of the file system. Each operating system may have its own methods of protecting the file system, but they should all attempt to achieve the core security features detailed by S TANENBAUM, ANDREW Bos, Herbert (2015) in the book “Modern Operating Systems”.
+The book goes into detail about how operating systems work, but the text can be dissected to reveal the importance of protecting the file system on a computer and the various mechanisms that can be used. These mechanisms can include Access controls, authentication, encryption, auditing, file permissions, and integrity checking.
+Access control can be used to restrict or limit users and programmes access to files. Operating systems can use access control lists (ACLs) to restrict read, write, and execute privileges. (Chapter 11, p.796)
+Authentication is used to verify a user or process and prevent unauthorised access to a file system. Authentication can be in the form of passwords, biometrics, physical hardware keys, and various other methods. (Chapter 9. P.729)
+Encryption in a file system can transform data on disk at rest or in transit to an unreadable form and protect confidentiality of file systems. The two main methods of encryption include public key and private key. (Chapter 9, p.724)
+Permissions are a type of access control that are commonly used by operating systems to determine who can use a file or directory and how. Permissions are often seen as flags and are separated between user, groups, and owner. (Chapter 10, p.932)
+Integrity checkers can compute a checksum for each file within a file system. File tampering can be detected by comparing the files original checksum with its new checksum at regular intervals. This is a popular method of anti-virus software which is sometimes built into modern operating systems. (Chapter 9, p.778)
+
+S TANENBAUM, A. and Bos, H. (2015) Modern operating systems.
+
