@@ -6,6 +6,12 @@ Authentication is used to verify a user or process and prevent unauthorised acce
 Encryption in a file system can transform data on disk at rest or in transit to an unreadable form and protect confidentiality of file systems. The two main methods of encryption include public key and private key. (Chapter 9, p.724)
 Permissions are a type of access control that are commonly used by operating systems to determine who can use a file or directory and how. Permissions are often seen as flags and are separated between user, groups, and owner. (Chapter 10, p.932)
 Integrity checkers can compute a checksum for each file within a file system. File tampering can be detected by comparing the files original checksum with its new checksum at regular intervals. This is a popular method of anti-virus software which is sometimes built into modern operating systems. (Chapter 9, p.778)
+Access control has been seen in Microsoft Windows operating systems as far back as 1996 with the release of Windows NT 4.0 (Microsoft, 2021). It is still present within Microsoft Windows 10 and later. It is used after a user has authenticated to a system to determine the resources they have access to. Microsoft Windows uses ACLs to protect system objects, including files. Unique security identifiers (SIDs) are used to assign file permissions, including read, write, and execute to users and groups. The operating system completes an access control check to determine the SIDs for users and groups (Microsoft, 2023). 
 
+
+Microsoft (2021) Microsoft Support. Available at: https://support.microsoft.com/en-us/topic/client-service-and-program-issues-can-occur-if-you-change-security-settings-and-user-rights-assignments-0cb6901b-dcbf-d1a9-e9ea-f1b49a56d53a (Accessed: February 23, 2023).
+Microsoft (2023) Access Control Overview. Microsoft Learn Available at: https://learn.microsoft.com/en-us/windows/security/identity-protection/access-control/access-control (Accessed: February 23, 2023).
 S TANENBAUM, A. and Bos, H. (2015) Modern operating systems.
+
+
 
